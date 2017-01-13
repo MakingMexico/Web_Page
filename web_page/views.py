@@ -5,5 +5,5 @@ class IndexView(TemplateView):
     template_name = "index.html"
 
 
-class ContactView(TemplateView):
+class UsView(TemplateView):
     template_name = 'us.html'

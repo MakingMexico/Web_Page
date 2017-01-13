@@ -1,7 +1,7 @@
 from django.conf.urls import url
-from web_page.views import IndexView, ContactView
+from web_page.views import IndexView, UsView
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),
-    url(r'^contact_us/$', ContactView.as_view(), name='contact_us')
+    url(r'^us/$', UsView.as_view(), name='us')
 ]
