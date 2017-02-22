@@ -152,7 +152,7 @@ a.mysvg:after {
 }
 
 
-/*gears to index*/
+/* gears to index */
 
 .myimage-float1ai {
     position: absolute;
@@ -200,12 +200,6 @@ a.mysvg:after {
     position: fixed;
     width: 50%;
     right: -5.8em;
-    /*
-  position: relative;
-  top: -35em;
-  right: -36.8em;
-  width: 70%;
-  */
 }
 
 .myp {
@@ -245,181 +239,528 @@ a.mysvg:after {
     line-height: 1.2;
 }
 
-@media only screen and (min-width: 50px) {
-    .myimage-float1 {
-        top: -0.1em;
-        left: -4.5em;
-        width: 8em;
+.mywidthgroupright {
+    transform: scale(1);
+}
+
+.mywidthgroupleft {
+    transform: scale(1);
+}
+
+
+/*Font size responsive tittle-hero*/
+@media only screen and (min-width: 300px) {
+    .title-hero {
+        font-size: 2.2rem;
     }
-    .myimage-float2 {
-        top: 18em;
-        right: -5em;
-        width: 8em;
+    .mywidthgroupleft {
+        transform: scale(0.4) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.4) translate(15em, -33em);
+    }
+}
+@media only screen and (min-width: 330px) {
+    .title-hero {
+        font-size: 2.4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
     }
 }
 
-@media only screen and (min-width: 350px) {
-    .myimage-float1 {
-        top: -0.1em;
-        left: -5.5em;
-        width: 8em;
+@media only screen and (min-width: 360px) {
+    .title-hero {
+        font-size: 2.4rem;
     }
-    .myimage-float2 {
-        top: 18em;
-        right: -6em;
-        width: 10em;
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .title-hero {
+        font-size: 2.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .title-hero {
+        font-size: 2.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-17em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
     }
 }
 
 @media only screen and (min-width: 450px) {
-    .myimage-float1 {
-        top: 1em;
-        left: -7em;
-        width: 10.8em;
-    }
-    .myimage-float2 {
-        top: 24em;
-        right: -7em;
-        width: 11em;
-    }
-}
-
-@media only screen and (min-width: 650px) {
-    .myimage-float1 {
-        top: 3em;
-        left: -7em;
-        width: 15em;
-    }
-    .myimage-float2 {
-        top: 20em;
-        right: -7.5em;
-        width: 13em;
-    }
-}
-
-@media only screen and (min-width: 850px) {
-    .myimage-float1 {
-        top: 3em;
-        left: -8em;
-        width: 17.5em;
-    }
-    .myimage-float2 {
-        top: 23em;
-        right: -8.5em;
-        width: 15em;
-    }
-}
-
-@media only screen and (min-width: 1050px) {
-    .myimage-float1 {
-        top: 3em;
-        left: -10em;
-        width: 20em;
-    }
-    .myimage-float2 {
-        top: 24em;
-        right: -10em;
-        width: 17.5em;
-    }
-}
-
-@media only screen and (min-width: 1250px) {
-    .myimage-float1 {
-        top: 4em;
-        left: -10em;
-    }
-    .myimage-float2 {
-        top: 29em;
-        right: -10em;
-    }
-}
-
-@media only screen and (min-width: 1450px) {
-    .myimage-float1 {
-        top: 3em;
-        left: -10em;
-        width: 20em;
-    }
-    .myimage-float2 {
-        top: 22em;
-        right: -10em;
-        width: 17.5em;
-    }
-}
-
-@media only screen and (min-width: 1650px) {
-    .myimage-float1 {
-        top: 4em;
-        left: -10em;
-        width: 22.5em;
-    }
-    .myimage-float2 {
-        top: 26em;
-        right: -10em;
-        width: 20em;
-    }
-}
-
-
-/*Font size tittle-hero*/
-@media only screen and (min-width: 550px) {
     .title-hero {
-        font-size: 3.1rem;
+        font-size: 2.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
     }
 }
-@media only screen and (min-width: 650px) {
+
+@media only screen and (min-width: 480px) {
+    .title-hero {
+        font-size: 2.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 510px) {
+    .title-hero {
+        font-size: 2.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(17em, -33em);
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .title-hero {
+        font-size: 3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-20em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(20em, -33em);
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .title-hero {
+        font-size: 3.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.6) translateX(-12em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.6) translate(12em, -35em);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .title-hero {
+        font-size: 2.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.6) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.6) translate(1em, 3em);
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    .title-hero {
+        font-size: 2.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 660px) {
+    .title-hero {
+        font-size: 2.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .title-hero {
+        font-size: 3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .title-hero {
+        font-size: 3.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 1em);
+    }
+}
+
+@media only screen and (min-width: 750px) {
     .title-hero {
         font-size: 3.3rem;
     }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 2em);
+    }
 }
-@media only screen and (min-width: 750px) {
+
+@media only screen and (min-width: 780px) {
     .title-hero {
         font-size: 3.4rem;
     }
-}
-@media only screen and (min-width: 850px) {
-    .title-hero {
-        font-size: 3.5rem;
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -3em);
     }
 }
-@media only screen and (min-width: 950px) {
+
+@media only screen and (min-width: 810px) {
     .title-hero {
         font-size: 3.6rem;
     }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -2em);
+    }
 }
-@media only screen and (min-width: 1050px) {
+
+@media only screen and (min-width: 840px) {
+    .title-hero {
+        font-size: 3.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -1em);
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    .title-hero {
+        font-size: 3.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 900px) {
     .title-hero {
         font-size: 4rem;
     }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 1em);
+    }
 }
-@media only screen and (min-width: 1150px) {
+
+@media only screen and (min-width: 930px) {
+    .title-hero {
+        font-size: 4.1rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 2em);
+    }
+}
+
+@media only screen and (min-width: 960px) {
     .title-hero {
         font-size: 4.2rem;
     }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 3em);
+    }
 }
-@media only screen and (min-width: 1250px) {
+
+@media only screen and (min-width: 990px) {
+    .title-hero {
+        font-size: 3.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -4em);
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .title-hero {
+        font-size: 3.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .title-hero {
+        font-size: 3.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .title-hero {
+        font-size: 3.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -1em);
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    .title-hero {
+        font-size: 3.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .title-hero {
+        font-size: 4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 1em);
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .title-hero {
+        font-size: 4.1rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -5em);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .title-hero {
+        font-size: 4.15rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -4em);
+    }
+}
+
+@media only screen and (min-width: 1230px) {
+    .title-hero {
+        font-size: 4.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 1260px) {
+    .title-hero {
+        font-size: 4.3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 1290px) {
     .title-hero {
         font-size: 4.4rem;
     }
-}
-@media only screen and (min-width: 1350px) {
-    .title-hero {
-        font-size: 4.75rem;
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -1em);
     }
 }
-@media only screen and (min-width: 1450px) {
+
+@media only screen and (min-width: 1320px) {
+    .title-hero {
+        font-size: 4.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(-1em);
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .title-hero {
+        font-size: 4.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(0em);
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    .title-hero {
+        font-size: 4.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(1em);
+    }
+}
+
+@media only screen and (min-width: 1410px) {
+    .title-hero {
+        font-size: 4.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(2em);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .title-hero {
+        font-size: 5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(3em);
+    }
+}
+
+@media only screen and (min-width: 1470px) {
     .title-hero {
         font-size: 5.1rem;
     }
+    .mywidthgroupleft {
+        transform: scale(1);
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-4em);
+    }
 }
-@media only screen and (min-width: 1550px) {
+
+@media only screen and (min-width: 1500px) {
+    .title-hero {
+        font-size: 5.2rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-3em);
+    }
+}
+
+@media only screen and (min-width: 1530px) {
     .title-hero {
         font-size: 5.3rem;
     }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-2em);
+    }
 }
-@media only screen and (min-width: 1650px) {
+
+@media only screen and (min-width: 1560px) {
+    .title-hero {
+        font-size: 5.4rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-1em);
+    }
+}
+
+@media only screen and (min-width: 1590px) {
     .title-hero {
         font-size: 5.5rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1);
     }
 }
 
