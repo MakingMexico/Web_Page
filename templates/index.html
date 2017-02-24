@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,9 +12,9 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/pages/home.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="{% static 'css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="{% static 'css/pages/home.min.css' %}" rel="stylesheet">
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <!-- Nav -->
         <nav class="top-nav persian-green" role="navigation">
             <div class="nav-wrapper container">
-                <a href="/" class="brand-logo sr"><img class="xlogo" src="img/makingmex/logommx3.png" alt=""></a>
+                <a href="/" class="brand-logo sr"><img class="xlogo" src="{% static 'img/makingmex/logommx3.png' %}" alt=""></a>
                 <a href="#modalopc" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <a href="#modalopc" class="right hide-on-med-and-down btn-floating btn-large halfway-fab waves-effect waves-light indigo accent-3">
                     <i class="material-icons">menu</i>
@@ -37,13 +38,13 @@
                 <div class="row center scrollblock">
                   <div class="col s12 m2 l2 mywidthgroupleft">
                       <div class="sr-blocks myimage-float1ai">
-                          <img id="rotate-gear-1a" class="responsive-img" src="img/gears/gear1.svg">
+                          <img id="rotate-gear-1a" class="responsive-img" src="{% static 'img/gears/gear1.svg' %}">
                       </div>
                       <div class="sr-blocks myimage-float1bi">
-                          <img id="rotate-gear-1b" class="responsive-img" src="img/gears/gear2.svg">
+                          <img id="rotate-gear-1b" class="responsive-img" src="{% static 'img/gears/gear2.svg' %}">
                       </div>
                       <div class="sr-blocks myimage-float1ci">
-                          <img id="rotate-gear-1c" class="responsive-img" src="img/gears/gear3.svg">
+                          <img id="rotate-gear-1c" class="responsive-img" src="{% static 'img/gears/gear3.svg' %}">
                       </div>
                   </div>
                     <div class="col s12 m8 l8">
@@ -51,13 +52,13 @@
                     </div>
                     <div class="col s12 m2 l2 mywidthgroupright">
                         <div class="sr-blocks myimage-float2ai">
-                            <img id="rotate-gear-2a" class="responsive-img" src="img/gears/gear4.svg">
+                            <img id="rotate-gear-2a" class="responsive-img" src="{% static 'img/gears/gear4.svg' %}">
                         </div>
                         <div class="sr-blocks myimage-float2bi">
-                            <img id="rotate-gear-2b" class="responsive-img" src="img/gears/gear5.svg">
+                            <img id="rotate-gear-2b" class="responsive-img" src="{% static 'img/gears/gear5.svg' %}">
                         </div>
                         <div class="sr-blocks myimage-float2ci">
-                            <img id="rotate-gear-2c" class="responsive-img" src="img/gears/gear6.svg">
+                            <img id="rotate-gear-2c" class="responsive-img" src="{% static 'img/gears/gear6.svg' %}">
                         </div>
                     </div>
                 </div>
@@ -69,7 +70,7 @@
                 <!-- Modal Structure -->
                 <div id="modalopc" class="modal indigo darken-2">
                     <div class="modal-content mycontainer myspace-tittle">
-                        <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
+                        <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="{% static 'img/makingmex/logo-green.png' %}" alt="MAKING MÉXICO"></a>
                         <div class="row center myspace-top">
                             <div class="col s12 m4">
                                 <a href="#" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Inicio</a>
@@ -132,7 +133,7 @@
                 <div class="mycontainer myspace-div">
                     <div class="row">
                         <div class="col s12 m4 center sr">
-                            <img class="mywidth responsive-img" src="img/makingmex/logo-python.png">
+                            <img class="mywidth responsive-img" src="{% static 'img/makingmex/logo-python.png' %}">
                         </div>
                         <div class="col s12 m8 sr">
                             <h3>Curso de Python</h3>
@@ -155,7 +156,7 @@
                             <a href="ruby.html" id="ruby" class="btn waves-effect waves-light indigo accent-3 hoverable left">ver más</a>
                         </div>
                         <div class="col s12 m4 center sr">
-                            <img class="responsive-img" src="img/makingmex/logo-ruby.png">
+                            <img class="responsive-img" src="{% static 'img/makingmex/logo-ruby.png' %}">
                         </div>
                         <div class="col s12 m8 hide-on-large-only hide-on-med-only sr">
                             <h3>Curso de Ruby</h3>
@@ -176,7 +177,7 @@
                 <div class="mycontainer myspace-top">
                     <div class="row">
                         <div class="col s12 m4 center sr">
-                            <img class="responsive-img" src="img/makingmex/logo.png">
+                            <img class="responsive-img" src="{% static 'img/makingmex/logo.png' %}">
                         </div>
                         <div class="col s12 m8 center sr-reset">
                             <br>
@@ -195,10 +196,9 @@
     <footer class="page-footer indigo darken-2">
         <div class="container">
             <div class="row center sr-blocks">
-                <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
+                <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="{% static 'img/makingmex/logo-green.png' %}" alt="MAKING MÉXICO"></a>
             </div>
             <div class="row center">
-
                 <a href="https://www.facebook.com/MakingMex"><i class="fa fa-facebook-square fa-3x persian-green-text myhoverable sr-blocks" aria-hidden="true"></i></a> &nbsp;&nbsp;
                 <a href="https://twitter.com/makingmex" <i class="fa fa-twitter-square fa-3x persian-green-text myhoverable sr-blocks" aria-hidden="true"></i>
                 </a>
@@ -216,11 +216,12 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/interactivity/scrollreveal.js"></script>
-    <script src="js/interactivity/scroll-reveal.js"></script>
-    <script src="js/scrollrama/jquery.scrollorama.js"></script>
+    <link href="{% static 'css/pages/home.min.css' %}" rel="stylesheet">
+    <script src="{% static 'js/materialize.js' %}"></script>
+    <script src="{% static 'js/init.js' %}"></script>
+    <script src="{% static 'js/interactivity/scrollreveal.js' %}"></script>
+    <script src="{% static 'js/interactivity/scroll-reveal.js' %}"></script>
+    <script src="{% static 'js/scrollrama/jquery.scrollorama.js' %}"></script>
 </body>
 
 </html>
