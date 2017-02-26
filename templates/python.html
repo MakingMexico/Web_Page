@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,10 +12,10 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/pages/home.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link href="{% static "css/materialize.css" %}" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="{% static "css/pages/home.min.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "font-awesome/css/font-awesome.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/animate.css" %}">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <!-- Nav -->
         <nav class="top-nav persian-green" role="navigation">
             <div class="nav-wrapper container">
-                <a href="/" class="brand-logo sr"><img class="xlogo" src="img/makingmex/logommx3.png" alt=""></a>
+                <a href="/" class="brand-logo sr"><img class="xlogo" src="{% static "img/makingmex/logommx3.png" %}" alt=""></a>
                 <a href="#modalopc" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <a href="#modalopc" class="right hide-on-med-and-down btn-floating btn-large halfway-fab waves-effect waves-light indigo accent-3">
                     <i class="material-icons">menu</i>
@@ -38,13 +39,13 @@
                 <div class="row center scrollblock">
                     <div class="col s12 m2 l2">
                         <div class="sr-blocks myimage-float1a">
-                            <img id="rotate-gear-1a" class="responsive-img" src="img/gears/gear1.svg">
+                            <img id="rotate-gear-1a" class="responsive-img" src="{% static "img/gears/gear1.svg" %}">
                         </div>
                         <div class="sr-blocks myimage-float1b">
-                            <img id="rotate-gear-1b" class="responsive-img" src="img/gears/gear2.svg">
+                            <img id="rotate-gear-1b" class="responsive-img" src="{% static "img/gears/gear2.svg" %}">
                         </div>
                         <div class="sr-blocks myimage-float1c">
-                            <img id="rotate-gear-1c" class="responsive-img" src="img/gears/gear3.svg">
+                            <img id="rotate-gear-1c" class="responsive-img" src="{% static "img/gears/gear3.svg" %}">
                         </div>
                     </div>
                     <div class="col s12 m8 l8">
@@ -52,13 +53,13 @@
                     </div>
                     <div class="col s12 m2 l2">
                         <div class="sr-blocks myimage-float2a">
-                            <img id="rotate-gear-2a" class="responsive-img" src="img/gears/gear4.svg">
+                            <img id="rotate-gear-2a" class="responsive-img" src="{% static "img/gears/gear4.svg" %}">
                         </div>
                         <div class="sr-blocks myimage-float2b">
-                            <img id="rotate-gear-2b" class="responsive-img" src="img/gears/gear5.svg">
+                            <img id="rotate-gear-2b" class="responsive-img" src="{% static "img/gears/gear5.svg" %}">
                         </div>
                         <div class="sr-blocks myimage-float2c">
-                            <img id="rotate-gear-2c" class="responsive-img" src="img/gears/gear6.svg">
+                            <img id="rotate-gear-2c" class="responsive-img" src="{% static "img/gears/gear6.svg" %}">
                         </div>
                     </div>
                 </div>
@@ -67,7 +68,7 @@
                 <!-- Modal Structure -->
                 <div id="modalopc" class="modal indigo darken-2">
                     <div class="modal-content mycontainer myspace-tittle">
-                        <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
+                        <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="{% static "img/makingmex/logo-green.png" %}" alt="MAKING MÉXICO"></a>
 
                         <div class="row center myspace-top">
                             <div class="col s12 m4">
@@ -103,7 +104,7 @@
                     <div class="row">
                         <div class="col s12 m4 center">
                             <div class="sr scrollblock">
-                                <img id="rotate-in" class="responsive-img" src="img/makingmex/logo-python.png">
+                                <img id="rotate-in" class="responsive-img" src="{% static "img/makingmex/logo-python.png" %}">
                             </div>
 
                         </div>
@@ -181,7 +182,7 @@
     <footer class="page-footer indigo darken-2">
         <div class="container">
             <div class="row center sr">
-                <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
+                <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="{% static "img/makingmex/logo-green.png" %}" alt="MAKING MÉXICO"></a>
             </div>
             <div class="row center">
 
@@ -202,14 +203,14 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/interactivity/scrollreveal.js"></script>
-    <script src="js/interactivity/scroll-reveal.js"></script>
+    <script src="{% static "js/materialize.js" %}"></script>
+    <script src="{% static "js/init.js" %}"></script>
+    <script src="{% static "js/interactivity/scrollreveal.js" %}"></script>
+    <script src="{% static "js/interactivity/scroll-reveal.js" %}"></script>
 
 
     <!--  <script type="js/scrollrama/jquery-1.9.1.min.js"></script>  -->
-    <script src="js/scrollrama/jquery.scrollorama.js"></script>
+    <script src="{% static "js/scrollrama/jquery.scrollorama.js" %}"></script>
 
 </body>
 
