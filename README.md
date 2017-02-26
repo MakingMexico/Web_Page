@@ -6,4 +6,4 @@ The most part of the fronted of this page is based on
 ===========
 
 Backend:
-We work with Python 2.7 and Djanfo 1.10
+We work with Python 2.7 and Django 1.10

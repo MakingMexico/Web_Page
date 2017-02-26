@@ -1,0 +1,772 @@
+/*body, .portafolio-section, .clients-section {
+    background: #192242
+}
+
+.home-mask {
+    background-image: -webkit-linear-gradient(3deg, #15bdde, #5268c1);
+    background-image: linear-gradient(87deg, #15bdde, #5268c1)
+}
+
+.home-mask .mask {
+    background-image: -webkit-linear-gradient(top, #070c20, #192242);
+    background-image: linear-gradient(to bottom, #070c20, #192242)
+}*/
+
+
+/* Here you specify the typography by Google Fonts */
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+
+/* Class to apply the persian-green color of the original logo*/
+
+.persian-green {
+    background-color: #12A79C !important;
+}
+
+.persian-green-text {
+    color: #12A79C !important;
+}
+
+nav .xlogo {
+    padding-top: 5px;
+    max-height: 3.8rem;
+    ;
+}
+
+a.mysvg:after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.transparencia {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.myspace {
+    padding-top: 4rem;
+}
+
+.myspace-tittle {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.myspace-div {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.myspace-top {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.myspace-bottom {
+    padding-bottom: 2em;
+}
+
+.myborder {
+    border-radius: 10px;
+}
+
+.card-element {
+    background-image: -webkit-linear-gradient(75deg, #1b295b, #5268c1);
+    background-image: linear-gradient(75deg, #1b295b, #5268c1);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-super div {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 1rem
+}
+
+.mydivHeader {
+    position: relative;
+}
+
+.myimage-float1 {
+    position: absolute;
+    top: 2em;
+    left: -10em;
+    /*top:  120px;
+  left: 150px;*/
+}
+
+.myimage-float2 {
+    position: absolute;
+    top: 12em;
+    right: -10em;
+}
+
+.myimage-float1a {
+    position: absolute;
+    top: 12em;
+    left: -6.5em;
+    width: 12.5em;
+}
+
+.myimage-float1b {
+    position: absolute;
+    top: 5.5em;
+    left: 0.2em;
+    width: 10em;
+}
+
+.myimage-float1c {
+    position: absolute;
+    top: 1.7em;
+    left: -5.1em;
+    width: 8.5em;
+}
+
+.myimage-float2a {
+    position: absolute;
+    top: 12em;
+    right: -6.5em;
+    width: 12.5em;
+}
+
+.myimage-float2b {
+    position: absolute;
+    top: 5.5em;
+    right: 0.2em;
+    width: 10em;
+}
+
+.myimage-float2c {
+    position: absolute;
+    top: 1.7em;
+    right: -5.1em;
+    width: 8.5em;
+}
+
+
+/* gears to index */
+
+.myimage-float1ai {
+    position: absolute;
+    top: 14.6em;
+    left: -7em;
+    width: 15em;
+}
+
+.myimage-float1bi {
+    position: absolute;
+    top: 6.2em;
+    left: 1.2em;
+    width: 12.5em;
+}
+
+.myimage-float1ci {
+    position: absolute;
+    top: 1.7em;
+    left: -5.1em;
+    width: 10em;
+}
+
+.myimage-float2ai {
+    position: absolute;
+    top: 40em;
+    right: -7em;
+    width: 15em;
+}
+
+.myimage-float2bi {
+    position: absolute;
+    top: 31.6em;
+    right: 1.2em;
+    width: 12.5em;
+}
+
+.myimage-float2ci {
+    position: absolute;
+    top: 27.1em;
+    right: -5.1em;
+    width: 10em;
+}
+
+.mybanner {
+    position: fixed;
+    width: 50%;
+    right: -5.8em;
+}
+
+.myp {
+    font-size: 1.2em;
+}
+
+.mycard-panel {
+    padding-right: 24px;
+    padding-bottom: 41px;
+    padding-left: 24px;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.mycontainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 90%;
+}
+
+.myhoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff !important;
+}
+
+.myhoverable-png:hover {
+    -webkit-filter: brightness(1%) invert(100%);
+    filter: brightness(1%) invert(100%);
+}
+
+.myopacity {
+    opacity: 80%;
+}
+
+.title-hero {
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.mywidthgroupright {
+    transform: scale(1);
+}
+
+.mywidthgroupleft {
+    transform: scale(1);
+}
+
+
+/*Font size responsive tittle-hero*/
+@media only screen and (min-width: 300px) {
+    .title-hero {
+        font-size: 2.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.4) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.4) translate(15em, -33em);
+    }
+}
+@media only screen and (min-width: 330px) {
+    .title-hero {
+        font-size: 2.4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .title-hero {
+        font-size: 2.4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .title-hero {
+        font-size: 2.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-16em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .title-hero {
+        font-size: 2.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translate(-17em, -2em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .title-hero {
+        font-size: 2.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .title-hero {
+        font-size: 2.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(15em, -33em);
+    }
+}
+
+@media only screen and (min-width: 510px) {
+    .title-hero {
+        font-size: 2.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-19em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(17em, -33em);
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .title-hero {
+        font-size: 3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.5) translateX(-20em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.5) translate(20em, -33em);
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .title-hero {
+        font-size: 3.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.6) translateX(-12em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.6) translate(12em, -35em);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .title-hero {
+        font-size: 2.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.6) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.6) translate(1em, 3em);
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    .title-hero {
+        font-size: 2.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 660px) {
+    .title-hero {
+        font-size: 2.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .title-hero {
+        font-size: 3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .title-hero {
+        font-size: 3.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 1em);
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .title-hero {
+        font-size: 3.3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.7) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.7) translate(1em, 2em);
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .title-hero {
+        font-size: 3.4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    .title-hero {
+        font-size: 3.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    .title-hero {
+        font-size: 3.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -1em);
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    .title-hero {
+        font-size: 3.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .title-hero {
+        font-size: 4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 1em);
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .title-hero {
+        font-size: 4.1rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 2em);
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .title-hero {
+        font-size: 4.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 3em);
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .title-hero {
+        font-size: 3.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -4em);
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .title-hero {
+        font-size: 3.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .title-hero {
+        font-size: 3.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .title-hero {
+        font-size: 3.8rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, -1em);
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    .title-hero {
+        font-size: 3.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 0em);
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    .title-hero {
+        font-size: 4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.8) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.8) translate(1em, 1em);
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .title-hero {
+        font-size: 4.1rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -5em);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .title-hero {
+        font-size: 4.15rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -4em);
+    }
+}
+
+@media only screen and (min-width: 1230px) {
+    .title-hero {
+        font-size: 4.2rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -3em);
+    }
+}
+
+@media only screen and (min-width: 1260px) {
+    .title-hero {
+        font-size: 4.3rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -2em);
+    }
+}
+
+@media only screen and (min-width: 1290px) {
+    .title-hero {
+        font-size: 4.4rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9) translateX(-1em);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translate(1em, -1em);
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .title-hero {
+        font-size: 4.5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(-1em);
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .title-hero {
+        font-size: 4.6rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(0em);
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    .title-hero {
+        font-size: 4.7rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(1em);
+    }
+}
+
+@media only screen and (min-width: 1410px) {
+    .title-hero {
+        font-size: 4.9rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(2em);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .title-hero {
+        font-size: 5rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(0.9);
+    }
+    .mywidthgroupright {
+        transform: scale(0.9) translateY(3em);
+    }
+}
+
+@media only screen and (min-width: 1470px) {
+    .title-hero {
+        font-size: 5.1rem;
+    }
+    .mywidthgroupleft {
+        transform: scale(1);
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-4em);
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .title-hero {
+        font-size: 5.2rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-3em);
+    }
+}
+
+@media only screen and (min-width: 1530px) {
+    .title-hero {
+        font-size: 5.3rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-2em);
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    .title-hero {
+        font-size: 5.4rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1) translateY(-1em);
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    .title-hero {
+        font-size: 5.5rem;
+    }
+    .mywidthgroupright {
+        transform: scale(1);
+    }
+}
+
+
+/* Shorthand version */
+
+.myrotate {
+    -webkit-animation-iteration-count: 3;
+}
